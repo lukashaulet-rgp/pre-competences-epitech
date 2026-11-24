@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-title: "Anton", sans-serif;
+
+  --color-ep-bg: #1f1f1f;
+  --color-ep-side: #1a1a1a;
+  --color-ep-panel: #2a2a2a;
+  --color-ep-line: #3a3a3a;
+  --color-ep-muted: #9a9a9a;
+  --color-ep-blue: #8597f5;
+  --color-ep-green: #5fcf91;
+  --color-ep-orange: #ef6b3f;
+  --color-ep-pink: #d14fd8;
+}
+
+body {
+  background: var(--color-ep-bg);
+}
